@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/blurred">
+
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:gravity="center"
+            android:hint="Username"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Password"/>
+        <Button
+            android:id="@+id/btn1"
+            android:background="@drawable/buttonstyleelector"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

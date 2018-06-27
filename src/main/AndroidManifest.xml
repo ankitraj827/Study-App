@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajay.loginapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconf"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconf"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NextPage" />
+        <activity android:name=".Subjects" />
+        <activity android:name=".Puzzles" />
+        <activity android:name=".Result" />
+        <activity
+            android:name=".radiocheck"
+            android:label="@string/title_activity_radiocheck"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".oracle"
+            android:label="@string/title_activity_oracle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".networking"
+            android:label="@string/title_activity_networking"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".database"
+            android:label="@string/title_activity_database"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Askquestion"
+            android:label="@string/title_activity_askquestion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

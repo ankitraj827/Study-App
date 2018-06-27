@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">loginapp</string>
+    <string name="title_activity_radiocheck">radiocheck</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_oracle">oracle</string>
+    <string name="title_activity_networking">networking</string>
+    <string name="title_activity_database">database</string>
+    <string name="title_activity_askquestion">Askquestion</string>
+    <string name="title_activity_sign_up">SignUp</string>
+</resources>

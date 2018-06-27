@@ -1,0 +1,140 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+
+
+        android:paddingTop="1dp"
+        android:background="@drawable/multiple">
+
+         <LinearLayout
+             android:id="@+id/ll1"
+             android:layout_width="match_parent"
+             android:layout_height="100dp">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Write the correct answer in the given blanks"
+                 android:textSize="15dp"
+                 android:textColor="#931a93"
+                 android:layout_gravity="center"
+                 android:layout_marginLeft="30dp"/>
+         </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/ll1"
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="1)"/>
+           <EditText
+               android:id="@+id/first"
+               android:layout_marginLeft="20dp"
+               android:layout_width="50dp"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="is the keyword which makes value of any variable constant "/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_below="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="2)"/>
+            <EditText
+                android:id="@+id/second"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="operator is used to check weather two string refer to the same address in memory "/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_below="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="3)"/>
+            <EditText
+                android:id="@+id/third"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="statement can be used to fetch the whole table from database"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_below="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="4)"/>
+            <EditText
+                android:id="@+id/fourth"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="can have at max two children and min 0"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/l4"
+            android:id="@+id/sum"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:background="#000"
+            android:text="Submit"
+            android:textColor="#ffffff"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
